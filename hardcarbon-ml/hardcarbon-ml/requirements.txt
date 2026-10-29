@@ -1,0 +1,15 @@
+# Python 3.10-3.12. Versions below are the ones this repository was tested with.
+# For exact reproduction of the published metrics, replace with the output of
+# `pip freeze` from the environment used for the paper.
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+xgboost==3.4.1
+catboost==1.2.10
+shap==0.54.1
+matplotlib==3.10.8
+joblib==1.5.3
+openpyxl==3.1.5
+pillow>=10.0          # GUI layout tests only
+# tkinter is part of the standard Python installer (needed for the GUI only)
